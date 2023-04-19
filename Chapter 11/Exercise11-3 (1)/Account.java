@@ -49,7 +49,6 @@ public class Account {
 	public String toString() {
 		return "Account ID: " + ID + " Date Created: " 
 		+ getdateCreated() + " Balance: $" + 
-		String.format("%.4f", Balance) + 
-		" Monthly Interest: $" + String.format("%.4f", getMonthlyInterest());
+		String.format("%.4f", Balance);
 	}
 }
