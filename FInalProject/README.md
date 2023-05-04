@@ -1,7 +1,7 @@
 # Gym Vending Machine 
 ## Synopsis: This software is for a vending machine that takes the points a gym attendee has accumulated by scanning their pass (attending the gym) and allows them to use those points as currency for their desired supplement drink
 ## This program only needs user input in the form of numbers in order to run the main file and prompt the user. 
-## Code Example 
+## Code Example for inputting user ID and points
 ```
 System.out.println("Enter your ID: ");
 		String id = input.nextLine(); 
@@ -20,6 +20,9 @@ System.out.println("Enter your ID: ");
 		VendingMachine VendingMachine1 = new FreeVendingMachine(user);
 		
 		System.out.println("Press 1 to confirm login");
-		int choice = input.nextInt();
+		int choice = input.nextInt(); 
+```
+
+		
     
-    ##Tests JUnit4 is used to Test
+    
